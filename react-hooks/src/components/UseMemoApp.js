@@ -15,6 +15,8 @@ export default function UseMemoApp() {
      return {
       backgroundColor: dark ? "black" : "white",
       color: dark ? "white" : "black",
+      width:'100%',
+      height:'100vh'
     };
   }, [dark]);
 
@@ -67,6 +69,7 @@ export default function UseMemoApp() {
         style={{
           margin: 15,
           width: "100%",
+          higth:'100%'
         }}
       >
         <button
